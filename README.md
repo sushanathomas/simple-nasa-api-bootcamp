@@ -2,7 +2,7 @@
 
 This project uses NASA's Astronomy Picture of the Day (APOD) API to display astronomy content based on a date selected by the user.
 
-<img width="596" height="235" alt="Nasa API" src="https://github.com/user-attachments/assets/ad0e732b-7ca5-42ce-8f8c-59cd533a5ee7" />
+<img width="835" height="316" alt="Nasa API" src="https://github.com/user-attachments/assets/1a0ccd33-2ff3-43f5-ae98-df0fb2311980" />
 
 ## How It Works
 
