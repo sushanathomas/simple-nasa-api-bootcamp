@@ -1,55 +1,40 @@
-# NASA Astronomy Explorer
+# NASA Astronomy Picture of the Day 🚀
 
-A web application that lets users select a date and explore
-NASA’s Astronomy Picture of the Day.
+This project uses NASA's Astronomy Picture of the Day (APOD) API to display astronomy content based on a date selected by the user.
 
-## Features
+<img width="835" height="316" alt="Nasa API" src="https://github.com/user-attachments/assets/1a0ccd33-2ff3-43f5-ae98-df0fb2311980" />
 
-- Select a date using a date picker.
-- Request astronomy content from NASA’s APOD API.
-- Display the title, picture, and description.
+## How It Works
 
-## Built With
+- Select a date using the date input.
+- Click the "Get Picture" button.
+- The app sends a request to NASA's APOD API.
+- The title and description are displayed on the page.
+- If NASA returns an image, the image is displayed.
+- If NASA returns a video, the video is displayed instead.
+
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- Fetch API
-- NASA Astronomy Picture of the Day API
+- NASA APOD API
 
-## How to Run
+## What I Learned
 
-1. Download or clone this repository.
-2. Configure your NASA API key in js/config.js using the variable
-   expected by js/main.js.
-3. Open index.html in your browser.
-4. Select a date and click Get Picture.
+While building this project, I practiced:
 
-An internet connection and a valid NASA API key are required.
-No Node.js server is needed.
+- Working with APIs
+- Using `fetch()`
+- Working with JSON data
+- Accessing object properties
+- Using `if / else if` conditionals
+- Handling image and video responses from an API
+- Updating HTML elements using the DOM
+- Handling edge cases
 
-## Project Files
+## API
 
-- index.html — date picker and astronomy content
-- css/style.css — page styling and responsive layout
-- css/normalize.css — browser style normalization
-- js/config.js — local API configuration
-- js/main.js — API requests and page updates
-- README.md — project documentation
+This project uses the NASA Astronomy Picture of the Day (APOD) API:
 
-## Current Limitations
-
-NASA sometimes returns an embedded video instead of a picture.
-Embedded video URLs require an iframe; the current HTML uses
-a video element, so those videos may not play.
-
-## What I Practiced
-
-- Requesting data from an API.
-- Working with dates and JSON responses.
-- Updating page content with JavaScript.
-- Styling a responsive web page.
-
-## Author
-
-Sushana Thomas
+https://api.nasa.gov/
